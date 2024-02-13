@@ -1,0 +1,152 @@
+//
+// Functions
+//
+/*
+Font: 		Neutrif Pro
+Style: 		Light
+URL: 		https://www.youworkforthem.com/font/T7391/neutrif-pro
+Foundry: 	Degarism Studio
+Foundry: 	https://www.youworkforthem.com/designer/869/degarism-studio
+Copyright:	Copyright © 2016 by Deni Anggara. All rights reserved.
+Version: 	17
+Created:	January 09, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+/*
+Font: 		Neutrif Pro
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T7391/neutrif-pro
+Foundry: 	Degarism Studio
+Foundry: 	https://www.youworkforthem.com/designer/869/degarism-studio
+Copyright:	Copyright © 2016 by Deni Anggara. All rights reserved.
+Version: 	17
+Created:	January 09, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+/*
+Font: 		Neutrif Pro
+Style: 		Medium
+URL: 		https://www.youworkforthem.com/font/T7391/neutrif-pro
+Foundry: 	Degarism Studio
+Foundry: 	https://www.youworkforthem.com/designer/869/degarism-studio
+Copyright:	Copyright © 2016 by Deni Anggara. All rights reserved.
+Version: 	17
+Created:	January 09, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+/*
+Font: 		Neutrif Pro
+Style: 		Semi Bold
+URL: 		https://www.youworkforthem.com/font/T7391/neutrif-pro
+Foundry: 	Degarism Studio
+Foundry: 	https://www.youworkforthem.com/designer/869/degarism-studio
+Copyright:	Copyright © 2016 by Deni Anggara. All rights reserved.
+Version: 	17
+Created:	January 09, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+/*
+Font: 		Neutrif Pro
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T7391/neutrif-pro
+Foundry: 	Degarism Studio
+Foundry: 	https://www.youworkforthem.com/designer/869/degarism-studio
+Copyright:	Copyright © 2016 by Deni Anggara. All rights reserved.
+Version: 	17
+Created:	January 09, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+// @import url("//fast.fonts.net/t/1.css?apiType=css&projectid=bed979e1-aa57-4b07-9b92-254746c70192");
+
+// -NeutrifPro-Light
+// @font-face {
+// 	font-family: 'NeutrifPro';
+// 	src: url('../fonts/neutrif-pro-light.eot');
+// 	src: url('../fonts/neutrif-pro-light.eot?#iefix') format('embedded-opentype'),
+//              url('../fonts/neutrif-pro-light.woff2') format('woff2'),
+// 	     url('../fonts/neutrif-pro-light.woff') format('woff'),
+// 	     url('../fonts/neutrif-pro-light.ttf') format('truetype'),
+// 	     url('../fonts/neutrif-pro-light.svg#youworkforthem') format('svg');
+// 	font-weight: 400;
+// 	font-style: normal;
+//	font-display: swap;
+// }
+
+// NeutrifPro-Regular
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('../fonts/neutrif-pro.eot');
+	src: url('../fonts/neutrif-pro.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/neutrif-pro.woff2') format('woff2'),
+	     url('../fonts/neutrif-pro.woff') format('woff'),
+	     url('../fonts/neutrif-pro.ttf') format('truetype'),
+	     url('../fonts/neutrif-pro.svg#youworkforthem') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+// NeutrifPro-Medium
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('../fonts/neutrif-pro-medium.eot');
+	src: url('../fonts/neutrif-pro-medium.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/neutrif-pro-medium.woff2') format('woff2'),
+	     url('../fonts/neutrif-pro-medium.woff') format('woff'),
+	     url('../fonts/neutrif-pro-medium.ttf') format('truetype'),
+	     url('../fonts/neutrif-pro-medium.svg#youworkforthem') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+// NeutrifPro-SemiBold
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('../fonts/neutrif-pro-semi-bold.eot');
+	src: url('../fonts/neutrif-pro-semi-bold.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/neutrif-pro-semi-bold.woff2') format('woff2'),
+	     url('../fonts/neutrif-pro-semi-bold.woff') format('woff'),
+	     url('../fonts/neutrif-pro-semi-bold.ttf') format('truetype'),
+	     url('../fonts/neutrif-pro-semi-bold.svg#youworkforthem') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+// NeutrifPro-Bold
+@font-face {
+	font-family: 'NeutrifPro';
+	src: url('../fonts/neutrif-pro-bold.eot');
+	src: url('../fonts/neutrif-pro-bold.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/neutrif-pro-bold.woff2') format('woff2'),
+	     url('../fonts/neutrif-pro-bold.woff') format('woff'),
+	     url('../fonts/neutrif-pro-bold.ttf') format('truetype'),
+	     url('../fonts/neutrif-pro-bold.svg#youworkforthem') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

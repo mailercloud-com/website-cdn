@@ -1,0 +1,431 @@
+.section-regular-campaign-banner, .section-drag-and-drop-email-editor-1 {
+	position: relative;
+	&:after {
+		background: url(../img/icon/features/bg-cyan-3-divider.svg);
+	}
+}
+
+.section-regular-campaign-feature,
+.section-deliver-by-timezone-1, .section-real-time-results-1, .section-download-report-1, .section-user-permissions-1, .section-contact-list-management-1 {
+	&:after {
+		background: url(../img/icon/features/bg-blue-3-divider.svg);
+	}
+}
+
+.section-campaign-3, .section-drag-and-drop-email-editor-2 {
+	&:after {
+		background: url(../img/icon/bg-light-yellow-divider.svg);
+	}
+}
+
+.section-drag-and-drop-email-editor-2 {
+	background: url(../img/icon/spider-net-yellow-left.svg) #FDFFB6 no-repeat left bottom 150px;
+}
+
+.section-drag-and-drop-email-editor-4 {
+	&:after {
+		background: url(../img/icon/bg-cyan-10.svg);
+	}
+}
+
+.section-autoresponder-1,
+.section-dedicated-ip-1 {
+	&:after {
+		background: url(../img/icon/features/bg-green-2-divider.svg);
+	}
+}
+
+.section-autoresponder-2 {
+	position: relative;
+}
+
+.section-a-b-1,
+.section-link-checker-1,
+.section-custom-html-editor-1,
+.section-custom-domains-1,
+.section-personalisation-1, .section-time-stamp-1, .section-contact-rating-1 {
+	&:after {
+		background: url(../img/icon/bg-cyan-dark-divider.svg);
+	}
+}
+
+.section-template-gallery-1,
+.section-black-list-monitoring-1 {
+	&:after {
+		background: url(../img/icon/bg-yellow-1-divider.svg);
+	}
+}
+
+.section-custom-html-editor-2 {
+	&:after {
+		background: url(../img/icon/features/bg-green-4-divider.svg);
+	}
+}
+
+.section-segmentation-1, .section-opens-by-location-1, .section-track-opens-and-clicks-1 {
+	&:after {
+		background: url(../img/icon/features/bg-fluorescent-divider.svg);
+	}
+}
+
+.common-ft-img-block {
+	min-height: 227px;
+	display: inline-flex;
+	align-items: center;
+	&.custom-html {
+		min-height: 140px;
+	}
+	&.personalisation {
+		min-height: 186px;
+	}
+	&.about {
+		min-height: 148px;
+	}
+	&.plugin {
+		min-height: 88px;
+	}
+}
+
+.common-feature-titile {
+	font-size: $font-17;
+}
+
+.campaign-particle {
+	position: absolute;
+	&.particle-1 {
+		top: -20px;
+		right: 50px;
+	}
+}
+
+.autoresponder-particle {
+	position: absolute;
+	&.particle-1 {
+		bottom: 0;
+		left: 150px;
+		@include media-breakpoint-down(md) {
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
+a.internal-link {
+	color: $dark;
+	text-decoration: underline;
+	&:hover {
+		color: $primary;
+	}
+}
+
+
+.section-feature-main-1, .section-integrations-main-1 {
+	position: relative;
+	margin-bottom: 145px;
+	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/yellow-2-cross-divider.png);
+		height: 145px;
+  		bottom: -145px;
+	}
+	@include media-breakpoint-down(md) {
+		&:after {
+			height: 55px;
+  			bottom: -55px;
+		}
+	}
+}
+.section-feature-main-2 {
+	margin-top: -145px;
+	position: relative;
+	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/bg-cyan-5-cross-divider.png);
+	}
+}
+.section-feature-main-3 { 
+	position: relative;
+	margin-bottom: 75px;
+	&:before {
+	    content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-image: url(../img/icon/main/bg-cyan-5-cross-divider.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+	    height: 45px;
+	    top: -45px;
+  	}
+  	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/bg-cyan-6-cross-divider.png);
+		height: 75px;
+  		bottom: -75px;
+	}
+}
+.section-feature-main-4 {
+	position: relative;
+	margin-top: -75px;
+	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/feature-main-4.png);
+		height: 75px;
+  		bottom: -75px;
+	}
+}
+.section-feature-main-5 { 
+	position: relative;
+	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/feature-main-5.png);
+		height: 33px;
+  		bottom: -33px;
+	}
+}
+.section-feature-main-6 { 
+	position: relative;
+	&:after {
+		content: '';
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+		background-image: url(../img/icon/main/feature-main-6.png);
+		height: 47px;
+  		bottom: -47px;
+	}
+}
+ .section-feature-main-7 { 
+ 	position: relative;
+ }
+// 	&:after {
+// 		content: '';
+// 	    display: block;
+// 	    width: 100%;
+// 	    position: absolute;
+// 	    left: 0;
+// 	    right: 0;
+// 	    background-size: cover;
+// 	    background-repeat: no-repeat;
+// 	    z-index: 1;
+// 		background-image: url(../img/icon/main/feature-main-7.png);
+// 		height: 93px;
+//   		bottom: -93px;
+// 	}
+// }
+.particle-ft {
+	position: absolute;
+	&.particle-1 {
+		right: 0;
+		top: -100px;
+		@include media-breakpoint-down(md) {
+			display: none;	
+		}
+	}
+	&.particle-2 {
+		right: 20%;
+		top: -20px;
+	}
+	&.particle-3 {
+		left: 0;
+		top: -30px;
+	}
+	&.particle-4 {
+		left: 35%;
+    	top: 71%;
+  		transform: translate(-50%, -50%);
+  		@include media-breakpoint-down(md) {
+			display: none;	
+		}
+	}
+	&.particle-5 {
+		left: 60px;
+		top: -30px;
+		z-index: 2;
+		@include media-breakpoint-down(md) {
+			img {
+				width: 100px;
+			}	
+		}
+	}
+	&.particle-6 {
+		left: 50%;
+  		transform: translate(-50%);
+		top: -50px;
+		z-index: 2;
+		@include media-breakpoint-down(md) {
+			img {
+				width: 100px;
+			}	
+		}
+	}
+	&.particle-7 {
+		left: 260px;
+		bottom: 0;
+		z-index: 2;
+	}
+}
+
+.py-150 {
+	padding-top: 150px!important;
+	padding-bottom: 150px!important;
+	@include media-breakpoint-down(md) {
+		padding-top: 80px!important;
+		padding-bottom: 80px!important;
+	}
+}
+.deliverability-card {
+	border-radius: 40px;
+	border: 1px solid #E1E4E4;
+	height: 440px; 
+	padding: 26px 36px;
+	h4 {
+		line-height: 28px;
+	}
+	p {
+		line-height: 25px;
+	}
+	&.card-v {
+		border: 1px solid #3E0074;
+		background: #3E0074;
+		color: #fff;
+		h4 {
+			line-height: 42px;
+		}
+		p {
+			color: #fff;
+		}
+	}
+	@media screen and (max-width: 1249px) {
+		height: auto;
+	}
+	@include media-breakpoint-down(sm) {
+		padding: 10px;
+	}
+}
+.bottom-blur-bg {
+	&::before {
+		content: "";
+		width: 100%;
+		height: 892px;
+		background: #FFF;
+		filter: blur(100px);
+		display: inline-block;
+		position: absolute;
+		bottom: -570px;
+	}
+	&::after {
+		content: "";
+		width: 221px;
+		height: 144px;
+		background: url(../img/icon/features/deliverability-particle1.png) no-repeat;
+		position: absolute;
+		z-index: 50;
+		bottom: -100px;
+		left: 250px;
+		@include media-breakpoint-down(md) {
+			display: none;
+		}
+	}
+}
+.deliverability-card2 {
+	p {
+		color: $gray-900;
+		line-height: 28px;
+	}
+}
+.deliverability-row {
+	margin: 0 -30px;
+	@include media-breakpoint-down(md) {
+		margin: 0 -15px;
+	}
+}
+.deliverability-modal {
+	min-height: 640px;
+	background: url(../img/icon/form/form-placeholder.jpg) center top no-repeat;
+	@include media-breakpoint-down(md) {
+		background-size: 85%;
+	}
+	.hs-form-iframe {
+		min-height: 620px;
+	}
+}
+.deliverability-form {
+	background-color: #fff;
+	padding: 0 40px;
+}
+.del-sec-particle {
+	&::before {
+		content: "";
+		width: 124px;
+		height: 208px;
+		background: url(../img/icon/features/deliverability-particle2.png) no-repeat;
+		position: absolute;
+		z-index: 50;
+		top: -140px;
+		right: 0;
+	}
+	@include media-breakpoint-down(md) {
+		&::before {
+			display: none;
+		}
+	}
+}
+.del-bg-particle {
+	background: url(../img/icon/features/deliverability-particle3.png) no-repeat top right 25%;
+	@include media-breakpoint-down(md) {
+		background: none;
+	}
+}
+.form-pop {
+	padding: 0 !important;
+}

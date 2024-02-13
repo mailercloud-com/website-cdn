@@ -1,0 +1,181 @@
+// Styles, to quickly start using the component
+// You can delete, change or add your own
+// Limit the width to 1024px and center
+.vsm-menu {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 1030;
+	padding: 1.219rem 1rem;
+	@include media-breakpoint-down(md) {
+	    padding: .8rem 1rem;
+	}
+	ul {
+		max-width: 1270px;
+		margin: 0 auto;
+	}
+	&.with-fix-banner {
+	  top: 50px;
+	}
+}
+
+.vsm-section_mob {
+  margin-left: 0;
+  margin-right: 40px;
+}
+
+.vsm-mob__hamburger {
+  width: 24px;
+  height: 24px;
+}
+
+// Let's simplify the work with menu items (logo, menu, buttons, etc)
+.vsm-root {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+// Move all the content to the right and reduce the logo
+// .logo-section {}
+
+// All menu items (element props: a, button, span, etc) are
+// made the same in style
+.vsm-section_menu {
+	>* {
+		padding: 0 20px;
+		font-weight: 600;
+	}
+}
+
+// .vsm-menu .vsm-dropdown {
+// 	padding-top: 69px;
+// }
+
+.vsm-link {
+    font-size: 1rem;
+    cursor: pointer;
+    &.nuxt-link-active {
+  	  color: $primary;
+  	}
+}
+.vsm-dropdown-container {
+    border-radius: 10px;
+    background-color: $white;
+    box-shadow: 10px 10px 10px rgba(2, 10, 19, 0.1);
+}
+.vsm-background {
+  background: transparent;
+  box-shadow: none;
+}
+
+// Styles for Dropdown Content:
+.wrap-content {
+	
+	// Set the width manually so that it does not depend
+	// on changing content
+	&.feature-dropdown {
+	  width: 1000px;
+	  padding: 30px;
+	}
+	&.resource-dropdown {
+	  width: 419px;
+	  height: 208px;
+	  padding: 15px 15px 15px 15px;
+	}
+	
+}
+
+.wrap-content__block {
+	font-weight: $font-weight-medium;
+	padding: 0 15px;
+	margin-bottom: 10px;
+	color: $secondary;
+}
+
+.wrap-content__item {
+	font-style: italic;
+	font-size: .8rem;
+}
+
+.ul-style-nav {
+  list-style: none;
+  margin: 0;
+  color: $dark;
+  text-align: left;
+  padding-left: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  @include media-breakpoint-down(md) {
+     margin: auto; 
+  }
+  li {
+    position: relative;
+    display: block;
+    font-size: $font-15;
+    margin-bottom: 0;
+    a {
+      display: inline-block;
+      color: $dark;
+      padding: 11px 8px;
+      min-width: 270px;
+      position: relative;
+      transition: all .3s;
+      border-radius: 10px;
+      .bull-pulli-box {
+      	width: 35px;
+      	display: inline-block;
+      	text-align: center;
+      }
+      .bull-pulli {
+        margin-right: 10px;
+        transition: all .3s;
+      }
+      &:after {
+        content: '';
+        background: url("../img/icon/arrow-right.svg");
+        filter: invert(49%) sepia(59%) saturate(7496%) hue-rotate(199deg) brightness(100%) contrast(108%);
+        background-size: contain;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        right: 15px;
+        transform: translateY(-50%);
+        top: 50%;
+        opacity: 0;
+        transition: all .3s;
+      }
+      &:hover {
+          text-decoration: none;
+          color: $primary;
+          transform: translateY(-1px);
+          background-color: rgba(190, 213, 238, 0.15);
+         .bull-pulli {
+         	filter: invert(49%) sepia(59%) saturate(7496%) hue-rotate(199deg) brightness(100%) contrast(108%);
+         }
+         &:after {
+           opacity: 1;
+         }
+      }
+      &.nuxt-link-active {
+        color: $primary;
+        .bull-pulli {
+         	filter: invert(49%) sepia(59%) saturate(7496%) hue-rotate(199deg) brightness(100%) contrast(108%);
+         }
+      }
+    }
+    
+  }
+}
+
+.resource-dropdown {
+  .ul-style-nav {
+    li {
+      a {
+        min-width: 177px;
+      }
+    }
+  }
+}
